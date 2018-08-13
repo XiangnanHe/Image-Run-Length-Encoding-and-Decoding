@@ -4,7 +4,8 @@ import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import time
 
-# ref.: https://www.kaggle.com/stainsby/fast-tested-rle
+# ref: https://www.kaggle.com/stainsby/fast-tested-rle
+# ref: https://www.kaggle.com/paulorzp/run-length-encode-and-decode
 def rle_encode(img):
     '''
     img: numpy array, 1 - mask, 0 - background
